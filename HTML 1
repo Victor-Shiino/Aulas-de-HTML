@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title> Teste HTML 1 </title>
+    </head>
+    <body>
+        <h1 style="background: pink;"> Background com titulo maior </h1>
+        <p> <b> Destaque </b> <i>ítalico</i> <em>enfase</em></p><br>
+
+        Pulando linha <del>sensura</del> <ins>linha</ins> 10<sup>3</sup>
+        <p>Se você abrir esse <a href="https://www.youtube.com/watch?v=bgJ_1WuhUig" target="_blank"> botão</a>, terá uma surpresa!</p><br>
+        <a href="https://www.youtube.com/watch?v=5yb2N3pnztU" target="_blank"><img src="Trio.jpg" alt="trio" width="400" height="250"> 
+        
+    </a>
+<hr>
+    <blockquote>Amo essa</blockquote>
+<pre>
+    <code> 1+1 = 2</code>
+</pre>
+    </body>
+
+</html>
