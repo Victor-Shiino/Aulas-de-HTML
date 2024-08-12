@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Teste HTML 2</title>
+    <body> 
+        <p>
+<a href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank" > Se emocione clique</a> e terá uma surpresa!
+</p>
+<header>
+    <h1>Chorei aqui T-T</h1>
+</header>
+<Section>
+    <header>
+        <h2> (Cabeçalho) Abalou meu coração </h2>
+    </header>
+
+    <article> (Article) essa musica é do boa, esse saxofone meche com a estrutura</article>
+</Section>
+<aside>
+    <nav>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=_oYSiPBUuC8" target="blank">mas essa eu <strong>empolgo</strong></a></li>
+            <li><a href="https://www.youtube.com/watch?v=aW7bzd8uwyQ" target="blank"> Essa é <em>engraçada</em> demais</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+    </body>
+</head>
+
+</html>
