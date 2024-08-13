@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head charset="utf-8">
+    <title>Forms HTML</title>
+
+<style>
+label{
+    cursor: pointer;
+    display: block;
+
+}
+
+</style>
+
+    <body>
+<form action="#" method="get" target="blank" autocomplete="off">
+   <p> Meu forms</p>
+   <p>
+    <label for="nome">Nome:</label>
+   <input type="text" id="nome"
+   name="nome" placeholder="Seu nome" required>
+   </p>
+
+   <p>Escolha uma opção:</p>
+   <p>
+    <label for="A">A</label>
+    <input type="radio" id="A"
+    name="Escolha uma opção" value="A"><br>
+    <label for="B">B</label>
+    <input type="radio" id="B"
+    name="Escolha uma opção" value="B"><br>
+    <label for="C">C</label>
+    <input type="radio" id="C"
+    name="Escolha uma opção" valu="C">
+   </p>
+
+   <p>
+    <label for="Data">Data:</label>
+    <input type="date" id="Data" name="Data">
+    
+    </p>
+
+    <p>
+        <label for="datetime">Data:</label>
+    <input type="datetime-local" id="datetime" name="datetime">
+    </p>
+
+    <p>
+        <label for="time">Hora:</label>
+    <input type="time" id="time" name="time">
+    </p>
+
+    <p>
+        <label for="Cor">Cor:</label>
+        <input type="color" id="Cor" name="Cor">
+    </p>
+
+    <p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"
+        placeholder="nome.sobrenome@gmail.com">
+    </p>
+<p> 
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required
+    placeholder="Sua Senha">
+</p>
+
+    <p>
+        <label for="number">Numero</label>
+        <input type="number" id="numer" name="number"
+        placeholder="Digite um numero"
+        min="1" max="100">
+    </p>
+
+    <p>
+        <label for="file">Foto</label>
+        <input type="file" id="file" name="file"
+        accept=".mp4">
+    </p>
+
+    <p>
+        <label for="url">Insira um site</label>
+        <input type="url" id="url" name="url"
+        placeholder="Site favorito">
+    </p>
+
+    <p>
+        <label for="select">Escolha um opção:</label>
+        <select id="select" name="select">
+            <option value="number" label="1">Numero 1</option>
+            <option value="number" label="2">Numero 2</option>
+            <option value="number" label="3">Numero 3</option>
+            <option value="number" label="4">Numero 4</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="textarea">Texto:</label>
+        <textarea id="textarea" name="textarea"></textarea>
+    </p>
+<p>
+   <button type="submit">Enviar</button>
+   <button type="reset">Reset</button>
+</p>
+
+
+
+</form>
+        
+    </body>
+    
+</head>
+
+</html>
