@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head charset="utf-8">
+        <title>Teste HTML</title>
+    </head>
+    <body>
+<p>Fazendo testes de Table e Tfoot</p>
+<style>
+
+    table {
+        border-collapse:collapse;
+    
+    }
+    table tr, table th, table td {
+        border: 1px solid black;
+    padding: 5px;
+}
+    tfoot td {
+        background-color: aquamarine;
+        font-style: italic;
+    }
+    
+
+</style>
+<table>
+    <caption>Título</caption>
+    <thead>
+        <tr>
+            <th>Tópico 1</th>
+            <th>Tópico 2</th>
+            <th>Tópico 3</th>
+        </tr>
+    </thead>
+</table>
+
+<table>
+<tbody>
+    <tr>
+        <td>AAAAA</td>
+        <td>BBBBB</td>
+        <td>CCCCC</td>
+    </tr>
+</tbody>
+
+
+<tfoot>
+    <tr>
+        <td><button>aaaaa</button></td>
+        <td>bbbbb</td>
+        <td>ccccc</td>
+    </tr>
+</tfoot>
+</table>
+    </body>
+</html>
