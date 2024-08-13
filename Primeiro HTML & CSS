@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="=utf-8">
+    <meta name="viewport"
+    content="width=device-widht,initial-scale=1.0">
+
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+</head>
+
+<p>Iniciando com CSS</p>
+<body>
+    <div>
+        <section>
+            <h1>Título Maior</h1>
+            <p>O porto é o lugar mais seguro para um barco, mas ele não foi feito para ficar lá; seu destino é navegar.</p>
+        </section>
+    </div>
+<div class="primeiro">
+    <h2 class="segundo">O destino é um parente elegante do acaso</h2>
+    <h3 class="terceiro">A tragédia quando somos famosos é que se tem de devotar tanto tempo a ser-se famoso.</h3>
+    <p>O saber a gente aprende com os mestres e os livros. A sabedoria se aprende é com a vida e com os humildes.</p>
+   </div>
+
+
+<div class="father">
+    Classe Pai
+    <div class="baby">classe filha
+        <div class="baby two">classe filha 2</div>
+    </div>
+    
+</div>
+<input type="text">
+<input type="checkbox">
+<input type="checkbox">
+<p>Olá Mundo!</p>
+<div class="pai">
+<h1 class="h1"  atributo="valor">Só um título</h1>
+<p><a href="#">Boom</a> Diaa</p>
+<p>Boaa <a href="https://youtube.com/shorts/25JpD4cGojY?si=wq3Z5XxenXw1zMQf">Tardeee</a></p>
+<p>Boaa Noiteee</p>
+
+<h1 class="filha">Só um título</h1>
+<p>Boom diaa</p>
+<p>Boaa Tardeee</p>
+
+
+*{
+margin: 0;
+padding:0;
+}
+
+body div section p,
+body div section h1 {
+    color: green;
+}
+
+.primeiro .segundo{
+    color: purple;
+    font-style:italic;
+}
+
+.terceiro{
+    color: brown;
+    font-style:oblique
+}
+
+div{
+    color:initial;
+}
+.father > .baby{
+    color: blue;
+}
+
+.pai h1~p{
+    color:darkblue;
+}
+[atributo=valor]{
+    font-style:italic;
+}
+
+
+.filha{
+    transition: all 2s ease-in-out;
+}
+
+.filha:hover{
+    background-color: green;
+}
+
+a {
+color: darkorange;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color:firebrick;
+}
+
+a:hover{
+    background:violet;
+    color: white;
+    text-decoration: none;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: solid black;
+}
+
+input:checked + p {
+background-color: gold;
+}
+<p>Boaa Noiteee</p>
+</div>
+
+</body>
+</html>
