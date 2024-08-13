@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"> 
+           <title>Teste HTML 3</title>
+
+    </head>
+
+    <style>
+.sessão_um {
+    background-color: aquamarine;
+width: 50px;
+border:2px solid black;
+padding: 20px;
+margin: 15px
+}
+.sessão_dois {
+    background-image:url(https://thumbs.dreamstime.com/b/fox-vermelho-19304038.jpg);
+padding:auto;
+width: 800px;
+height: 600px;
+}
+
+    </style>
+    <body>
+<section class="sessão_um">Teste section</section>
+<section class="sessão_dois">2</section>
+<button count="number"> Não Aperte</button>
+    </body>
+</html>
